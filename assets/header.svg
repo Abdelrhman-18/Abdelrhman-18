@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Abdelrahman Khaled — Flutter Developer</title>
+  <desc id="desc">A dark blue banner with a mobile app illustration and Flutter-inspired accent colors.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="0.55" stop-color="#102743"/>
+      <stop offset="1" stop-color="#0b1220"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#49d4ff"/>
+      <stop offset="1" stop-color="#886bff"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="36"/></filter>
+  </defs>
+  <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
+  <circle cx="1010" cy="62" r="120" fill="#2e8bff" opacity="0.18" filter="url(#glow)"/>
+  <circle cx="225" cy="285" r="125" fill="#886bff" opacity="0.16" filter="url(#glow)"/>
+  <path d="M0 243 C190 200 280 295 430 258 S690 185 830 247 S1070 291 1200 225" fill="none" stroke="#5abfff" stroke-width="2" opacity="0.14"/>
+  <rect x="58" y="44" width="7" height="211" rx="4" fill="url(#accent)"/>
+  <text x="94" y="103" fill="#70d9ff" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="4">HELLO, I'M</text>
+  <text x="91" y="166" fill="#f3f8ff" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700">Abdelrahman Khaled</text>
+  <text x="94" y="212" fill="#b7cbe2" font-family="Arial, Helvetica, sans-serif" font-size="25">Flutter Developer  •  iOS &amp; Android</text>
+  <text x="94" y="248" fill="#70d9ff" font-family="Arial, Helvetica, sans-serif" font-size="17" letter-spacing="2">BUILDING MOBILE EXPERIENCES THAT MATTER</text>
+  <g transform="translate(938 37)">
+    <rect x="0" y="0" width="180" height="226" rx="28" fill="#0a1526" stroke="#78cfff" stroke-width="3"/>
+    <rect x="14" y="23" width="152" height="178" rx="13" fill="#132b47"/>
+    <rect x="58" y="9" width="64" height="5" rx="2" fill="#42749c"/>
+    <path d="M91 55 L59 89 L91 89 L64 120 L118 76 L88 76 L111 55 Z" fill="url(#accent)"/>
+    <rect x="34" y="139" width="111" height="8" rx="4" fill="#6dbde5" opacity="0.65"/>
+    <rect x="34" y="157" width="80" height="8" rx="4" fill="#6dbde5" opacity="0.38"/>
+    <circle cx="90" cy="213" r="5" fill="#5f9bc3"/>
+  </g>
+</svg>
